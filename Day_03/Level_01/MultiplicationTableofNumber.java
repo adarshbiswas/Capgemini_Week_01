@@ -12,17 +12,17 @@ public class MultiplicationTableofNumber {
         int number = input.nextInt();
 
         // Create an integer array to store the results of multiplication
-        int[] multiplicationtable = new int[10];
+        int[] multiplicationTable = new int[10];
 
         // Create a for loop and store the results in the array
         for (int i = 1; i <= 10; i++) {
-            multiplicationtable[i - 1] = number * i;
+            multiplicationTable[i - 1] = number * i;
         }
 
         // Display the result
         System.out.println("Multiplication table of " + number + ":");
         for (int i = 1; i <= 10; i++) {
-            System.out.println(number + " * " + i + " = " + multiplicationtable[i - 1]);
+            System.out.println(number + " * " + i + " = " + multiplicationTable[i - 1]);
         }
 
         input.close();

@@ -20,37 +20,37 @@ public class PrintOddEvenNumbers {
         }
 
         // Create an array for even numbers
-        int evennumber[] = new int[number / 2 + 1];
+        int evenNumber[] = new int[number / 2 + 1];
 
         // Create an aray for odd numbers
-        int oddnumber[] = new int[number / 2 + 1];
+        int oddNumber[] = new int[number / 2 + 1];
 
         // For saving even number;
         int evenIndex = 0;
 
         // For saving odd number;
-        int oddindex = 0;
+        int oddIndex = 0;
 
         // Iterate into the even array by using for loop
         for (int i = 1; i < number; i++) {
             if (i % 2 == 0) {
-                evennumber[evenIndex] = i;
+                evenNumber[evenIndex] = i;
             } else {
-                oddnumber[oddindex] = i;
+                oddNumber[oddIndex] = i;
             }
         }
 
         // Printing the even numbers array
         System.out.print("Even Numbers: ");
         for (int i = 0; i < evenIndex; i++) {
-            System.out.print(evennumber[i] + " ");
+            System.out.print(evenNumber[i] + " ");
         }
         System.out.println();
 
         // Printing the odd numbers array
         System.out.print("Odd Numbers: ");
-        for (int i = 0; i < oddindex; i++) {
-            System.out.print(oddnumber[i] + " ");
+        for (int i = 0; i < oddIndex; i++) {
+            System.out.print(oddNumber[i] + " ");
         }
         System.out.println();
 

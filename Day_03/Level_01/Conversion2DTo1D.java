@@ -1,10 +1,10 @@
 //Write a multi-dimensional array into single dimensional array
-//Create a class name 3DTo2DConversion
+//Create a class name Conversion2DTo1D
 
 //Import the required class for the program
 import java.util.Scanner;
 
-public class Conversion {
+public class Conversion2DTo1D {
 	public static void main(String[] args) {
 
 		// Create a Scanner class
@@ -34,14 +34,14 @@ public class Conversion {
 		int array[] = new int[rows * columns];
 
 		// Create a index variable
-		int indexvariable = 0;
+		int indexVariable = 0;
 
 		// Iterate through loops to store elements of matrix[][] into array[]
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
 				System.out.println("Assign the elements of matrix into array");
-				array[indexvariable] = matrix[rows][columns];
-				indexvariable++;
+				array[indexVariable] = matrix[rows][columns];
+				indexVariable++;
 			}
 		}
 

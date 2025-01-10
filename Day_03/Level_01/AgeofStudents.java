@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 //Creating a class with name AgeofStudents
-class AgeofStudents {
+class AgeOfStudents {
 	public static void main(String[] args) {
 
 		// Create a Scanner Object

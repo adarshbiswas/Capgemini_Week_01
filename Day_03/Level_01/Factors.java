@@ -1,4 +1,4 @@
-//Q-8 Write a program to fin d factors of a given number
+//Q-8 Write a program to find factors of a given number
 //Create a class name Factors
 
 //Import the required class for the program
