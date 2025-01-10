@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class Distance {
+class DistanceInMiles {
 	public static void main(String[] args) {
 
 		// Create an instance of Scanner class to take user input

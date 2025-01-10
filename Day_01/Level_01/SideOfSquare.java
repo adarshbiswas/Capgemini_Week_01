@@ -3,7 +3,7 @@
 //Create a class with name Prog13
 import java.util.Scanner;
 
-class Perimeter {
+class SideOfSquare {
 	public static void main(String[] args) {
 
 		// Create an instance of Scanner class to user input

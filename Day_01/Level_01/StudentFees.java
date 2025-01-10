@@ -3,7 +3,7 @@
 // including scanner package
 import java.util.Scanner;
 
-public class Student_Fees {
+public class StudentFees {
       public static void main(String[] args) {
 
             // Create an instance of Scanner class to user input

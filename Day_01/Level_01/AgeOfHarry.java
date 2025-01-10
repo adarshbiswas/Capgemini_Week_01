@@ -1,7 +1,7 @@
 //Write a program to find the age of Harry if the birth year is 2000. Assume the current year is 2024.
 
 //Create class with name Age 
-class Age_of_Harry {
+class AgeOfHarry {
    public static void main(String[] args) {
 
       // Create a int variable age and to find the age of Harry

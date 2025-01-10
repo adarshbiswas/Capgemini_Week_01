@@ -3,7 +3,7 @@
 //Create a class with name Distance
 import java.util.Scanner;
 
-class Distance {
+class DistanceInYards {
 	public static void main(String[] args) {
 
 		// Create an instance of Scanner class to user input
@@ -11,12 +11,6 @@ class Distance {
 
 		// Create an integer variable feet to take user input
 		int feet = input.nextInt();
-
-		// Create an integer variable yard to find its value
-		int yard = feet / 3;
-
-		// Create an integer variable mile to find its value
-		int mile = yard / 1760;
 
 		// Create a double variable centimeter to find its value
 		double centimeter = feet * 30.48;

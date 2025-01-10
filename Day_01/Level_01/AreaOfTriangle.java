@@ -3,7 +3,7 @@
 //Create a class with name Prog12
 import java.util.Scanner;
 
-class Area {
+class AreaOfTriangle {
 	public static void main(String[] args) {
 
 		// Create an instance of Scanner class to user input

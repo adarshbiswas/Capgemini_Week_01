@@ -1,7 +1,7 @@
 //Suppose you have to divide 14 pens among 3 students equally. Write a program to find how many pens each student will get if the pens must be divided equally. Also, find the remaining non-distributed pens.
 
 //Creating Class with name Prog 5 indicating the purpose is to display result.
-class Pen {
+class PenDistribution {
 	public static void main(String[] args) {
 
 		// Create a int variable pens and assign value 14
