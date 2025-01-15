@@ -1,4 +1,3 @@
-
 /*question 5 :Write a program to demonstrate StringIndexOutOfBoundsException
  */
 
